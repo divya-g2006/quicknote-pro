@@ -5,6 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "dev": "nodemon server.js",
+    "build": "npm --prefix ../client run build",
     "start": "node server.js"
   },
   "dependencies": {

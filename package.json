@@ -2,6 +2,10 @@
   "name": "quick-notes-dashboard",
   "private": true,
   "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
     "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
     "build": "npm --prefix client run build",
