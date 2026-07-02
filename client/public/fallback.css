@@ -1,0 +1,27 @@
+/* Fallback static CSS copied from build to avoid inline injection issues */
+/* Tailwind utilities + app fallback */
+
+/* Minimal subset to ensure layout if HMR injection blocked */
+.min-h-screen{min-height:100vh}
+.mx-auto{margin-left:auto;margin-right:auto}
+.max-w-6xl{max-width:72rem}
+.flex{display:flex}
+.flex-col{flex-direction:column}
+.gap-6{gap:1.5rem}
+.px-6{padding-left:1.5rem;padding-right:1.5rem}
+.py-8{padding-top:2rem;padding-bottom:2rem}
+.rounded-3xl{border-radius:1.5rem}
+.p-4{padding:1rem}
+.bg-white{background-color:#fff}
+.text-white{color:#fff}
+.bg-slate-950{background-color:#0f172a}
+.text-slate-50{color:#f8fafc}
+.bg-stone-100{background-color:#f5f5f4}
+.text-slate-900{color:#0f172a}
+
+/* App panel fallback */
+.panel{border:1px solid #e7e5e4;background:rgba(255,255,255,0.82);box-shadow:0 10px 30px rgba(15,23,42,0.06);backdrop-filter:blur(8px)}
+
+/* Basic input/button styles */
+input,button,textarea{font-family:inherit}
+button{cursor:pointer}
